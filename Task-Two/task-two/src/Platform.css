@@ -1,0 +1,41 @@
+.platform{
+    height: 60vh;
+}
+
+.platform_container{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.platform_heading{
+    display: flex;
+    justify-content: center;
+}
+
+.platform_heading h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #343a40;
+}
+
+.platform_item{
+    display: flex;
+}
+
+.platorm_itemrow{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.platorm_itemrow img{
+    width: 200px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
